@@ -147,6 +147,7 @@ body {
   flex-wrap: wrap;
   text-align: center;
   padding: 3rem 0;
+  cursor: pointer;
 }
 .smalldiv {
   width: 4rem;

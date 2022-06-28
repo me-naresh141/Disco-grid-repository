@@ -3,7 +3,7 @@ let bigDiv = document.createElement('div')
 bigDiv.className = 'bigDiv'
 let heading = document.createElement('h1')
 heading.classList.add('heading')
-heading.innerText = '😰😰Disco Grid🥵🥵'
+heading.innerText = '😀😀 Disco Grid 😀😀'
 body.append(heading, bigDiv)
 
 let allBox = []
