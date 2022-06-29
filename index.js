@@ -8,7 +8,7 @@ body.append(heading, bigDiv)
 
 let allBox = []
 
-for (let i = 1; i <= 500; i++) {
+for (let i = 1; i <= 480; i++) {
   allBox.push(document.createElement('div'))
 }
 
