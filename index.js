@@ -3,7 +3,7 @@ let bigDiv = document.createElement('div')
 bigDiv.className = 'bigDiv'
 let heading = document.createElement('h1')
 heading.classList.add('heading')
-heading.innerText = '😀😀 Disco Grid 😀😀'
+heading.innerText = '🕺🏾🕺🏾 Disco Grid 🕺🏾🕺🏾'
 body.append(heading, bigDiv)
 
 let allBox = []
@@ -19,6 +19,7 @@ function rendomColor() {
   let color = `rgb(${red},${green},${blue})`
   return color
 }
+
 function generateBox() {
   allBox.forEach((elm) => {
     var smalldiv = elm
@@ -29,8 +30,10 @@ function generateBox() {
   })
 }
 
-bigDiv.addEventListener('mousemove', (event) => {
-  generateBox()
+allBox.forEach((elm) => {
+  elm.addEventListener('mousemove', (event) => {
+    generateBox()
+  })
 })
 
 generateBox()
